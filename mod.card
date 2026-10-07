@@ -1,0 +1,25 @@
+-- Sharing metadata: read by tooling and the manager detail pane.
+return {
+  summary = "Merges Gold/Silver exclusives, adds starters, fossils, legendaries, and trade evolutions.",
+  author = "zingamau-dev",
+  support = "https://github.com/zingamau-dev/catch_em_all_gen2",
+  tags = { "gameplay", "encounters", "catch-em-all" },
+  compat = { modApi = 2, games = { "gen2" } },
+  differences = {
+    changed = {
+      "Vanilla encounter tables modified to include Gold/Silver version exclusives",
+      "Trade evolution Pokémon replace duplicate or redundant slots in vanilla tables"
+    },
+    added = {
+      "Kanto and Johto starters added at 1% in thematic routes",
+      "Fossils added to Ruins of Alph (Outside)",
+      "Legendary encounters at 1% (grass/cave) or 10% (surf)"
+    },
+    known = {
+      "Swarm Pokémon (Qwilfish and Remoraid) remain tied to their vanilla phone call swarm mechanics"
+    }
+  },
+  credits = {
+    { who = "pret/pokecrystal", for_ = "the vanilla encounter tables this patches over" }
+  }
+}

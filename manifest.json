@@ -1,0 +1,19 @@
+{
+  "id": "catch_em_all_gen2",
+  "name": "Catch 'em All Gen 2",
+  "version": "2.0.0",
+  "api": 2,
+  "games": [
+    "gen2"
+  ],
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GAMEPLAY",
+  "game_version": ">=0.0.0-0 <2.0.0",
+  "priority": 100,
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "description": "Merges Gold/Silver exclusives, adds Kanto/Johto starters, Fossils, Trade Evolutions, and Legendaries as wild encounters.",
+  "github": "zingamau-dev/catch_em_all_gen2"
+}
